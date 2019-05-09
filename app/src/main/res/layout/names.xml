@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Id" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="18dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="20dp"
+        android:text="Phone" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageViewPhoto"-->
+        <!--android:layout_width="88dp"-->
+        <!--android:layout_height="47dp"-->
+        <!--android:layout_alignTop="@+id/textViewId"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="24dp"-->
+        <!--android:src="@drawable/ic_launcher_background" />-->
+
+</RelativeLayout>
